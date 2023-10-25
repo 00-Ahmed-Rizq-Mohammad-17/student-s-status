@@ -1,0 +1,31 @@
+int main ()
+{
+   double grade;
+   string name;
+   string id;
+   cout << "enter your name\n and your id\n and your grade ";
+   cin >>name;
+   cin>> id;
+   cin >>grade;
+   if (grade>=90)
+   {
+cout<< "your name is: " <<endl<< name  << "your id is: "  <<endl<< id <<" your grade is A";
+   }
+   else if (grade>=80)
+   {
+      cout<< "your name is: " <<endl<< name  << "your id is: "  <<endl<< id <<" your grade is B";
+   }
+   else if (grade>=70)
+   {
+      cout<< "your name is: " <<endl<< name  << "your id is: "  <<endl<< id <<" your grade is C";
+   }
+   else if (grade>=60)
+   {
+      cout<< "your name is: " <<endl<< name  << "your id is: "  <<endl<< id <<" your grade is D";
+   }
+   else
+   {
+   cout<<" hard luck ya bro anta fe heta tanya\n";
+   }
+}
+
